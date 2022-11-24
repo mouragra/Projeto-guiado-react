@@ -1,0 +1,26 @@
+.menuContainer {
+    background:rgb(244, 174, 218);
+    display: Flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.menuItem {
+  list-style: none;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media(max-width: 765px) {
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

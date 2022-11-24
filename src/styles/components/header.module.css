@@ -1,0 +1,26 @@
+.headerContainer {
+    padding: 6rem;
+    background: #b19fad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem
+  }
+  
+  .headerTitle {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .headerImage {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  @media(max-width: 765px) {
+    .headerImage {
+      width: 100%;
+    }
+  }
+  
